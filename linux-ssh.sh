@@ -28,6 +28,7 @@ echo "El nombre es obligatorio, y no se ha encotrado por ninguna parte"
 exit 5
 fi
 
+bash linux-ssh.sh 
 
 echo "### Instalando ngrok para el tunel ###"
 
