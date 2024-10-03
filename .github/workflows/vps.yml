@@ -4,6 +4,7 @@ on:
 defaults:
   run:
     shell: bash
+      run: ./linux-ssh.sh
     
     
 jobs:
