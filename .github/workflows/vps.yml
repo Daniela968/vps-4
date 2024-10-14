@@ -4,14 +4,11 @@ on:
 defaults:
   run:
     shell: bash
-
-    
-    
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@4
 #    - name: If failed, means ok
 #      run: ./not-exist-file.sh it bloke build
     - name: Preparando el sistema linux.
